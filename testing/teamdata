@@ -1,0 +1,40 @@
+data Team = Team
+	{ teamName :: text
+	, teamCoun :: text
+	, teamCont :: text
+	}
+
+teams :: [Team]
+teams = 
+	[ Team "Taj Mahal" "India" "Asia"
+	, Team "Great Wall" "China" "Asia"
+	, Team "Everest" "Tibet" "Asia"
+	, Team "Tokyo Tower" "Japan" "Asia"
+	, Team "Angkor Wat Temple" "Cambodia" "Asia"
+	, Team "Grand Palace" "Thailand" "Asia"
+	, Team "Niagara Falls" "Canada" "Americas"
+	, Team "Statue of Liberty" "USA" "Americas"
+	, Team "Machu Pichu" "Peru" "Americas"
+	, Team "Plaza de Mayo" "Argentina" "Americas"
+	, Team "Christ de Redeemer" "Brazil" "Americas"
+	, Team "Mayan Pyramids" "Mexico" "Americas"
+	, Team "Colosseum" "Italy" "Europe"
+	, Team "Sagrada Familia" "Spain" "Europe"
+	, Team "Kremlin" "Russia" "Europe"
+	, Team "Belem Tower" "Portugal" "Europe"
+	, Team "Acropolis" "Greece" "Europe"
+	, Team "Sydney Opera" "Australia" "Oceania"
+	, Team "12 Apostles Rocks" "Australia" "Oceania"
+	, Team "Ayer Rock" "Australia" "Oceania"
+	, Team "Great Barrier Reef" "Australia" "Oceania"
+	, Team "Mount Eden" "New Zealand" "Oceania"
+	, Team "NZ Glaciers" "New Zealand" "Oceania"
+	, Team "Giza Pyramid" "Egypt" "Africa"
+	, Team "Table Mountain" "South Africa" "Africa"
+	, Team "Kilimanjaro" "Tanzania" "Africa"
+	, Team "Hassan II Mosque" "Morocco" "Africa"
+	, Team "Victoria Falls" "Zimbabwe" "Africa"
+	, Team "Sousse Medina" "Tunisa" "Africa"
+	]
+
+data Teams = Teams

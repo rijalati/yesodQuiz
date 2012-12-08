@@ -3,9 +3,39 @@ User
     password Text Maybe
     UniqueUser ident
 Email
-    email Text
+    email String
     user UserId Maybe
-    verkey Text Maybe
+    verkey String Maybe
     UniqueEmail email
-
+Category
+	name String
+	deriving Show
+Team
+	name String
+	country String
+	continent String
+	deriving Show
+Session
+	number Int default=1
+	deriving Show
+Question
+	categoryId CategoryId
+	body String
+	choice1 String
+	choice2 String Maybe
+	choice3 String Maybe
+	choice4 String Maybe
+	answer Int default=1
+	points Int
+	deriving Show
+Submission
+	categoryId CategoryId
+	questionId QuestionId
+	teamId TeamId
+	sessionId SessionId
+	choice Int
+	correct Bool
+	points Int
+	UniqueTeamQuestionSession teamId questionId sessionId
+	deriving Show
  -- By default this file is used in Model.hs (which is imported by Foundation.hs)

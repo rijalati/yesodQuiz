@@ -1,6 +1,48 @@
-h1 {
-    text-align: center
+html{
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+background-color:#35296d;
 }
-h2##{aDomId} {
-    color: #990
+
+#actionlist{
+position:fixed;
+top:11px;
+left:402px;
+}
+
+#improvement{
+position:fixed;
+top:72px;
+left:230px;
+}
+
+#boogle{
+position:fixed;
+top:375px;
+left:235px;
+}
+
+#escalate{
+position:fixed;
+top:435px;
+left:407px;
+}
+
+#whoiswho{
+position:fixed;
+top:377px;
+left:625px;
+}
+
+#guestimpact{
+position:fixed;
+top:67px;
+left:625px;
+}
+#footer{
+position:fixed;
+top:750px;
+left:200px;
 }

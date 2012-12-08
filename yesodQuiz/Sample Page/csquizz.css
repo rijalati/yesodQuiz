@@ -1,0 +1,40 @@
+html{
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+background-color:#35296d;
+}
+
+#wrapper{
+background-color:#35296d;
+}
+
+
+#textblock{
+color:white;
+ margin-left: auto;
+    margin-right: auto;
+	margin-top: 10%;
+    width: 50em;
+	font-size:20px;
+}
+#radiobuttons{  
+width:350px;
+color:white;
+margin-top:5%;
+ margin-left: auto;
+    margin-right: auto;
+    width: 50em;
+		font-size:20px;
+}
+#header2{
+position:fixed;
+top:30px;
+right:15px;
+}
+#footer{
+position:fixed;
+bottom:30px;
+right:15px;
+}
